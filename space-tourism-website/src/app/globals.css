@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0b0d17;
+  --text-gray: #d0d6f9;
+  --text-white: #ffffff;
+}
+
+.text-bellefair {
+  --font-family: var(--bellefair-font);
+}
+
+h1 /* 150 px*/ {
+  font-size: 9.375rem;
+  font-family: var(--bellefair-font);
+  line-height: 1;
+}
+
+h2 /* 100 px*/ {
+  font-size: 6.25rem;
+  font-family: var(--bellefair-font);
+  line-height: 1;
+}
+
+h3 /* 56 px*/ {
+  font-size: 3.5rem;
+  font-family: var(--bellefair-font);
+  line-height: 1;
+}
+
+h4 /* 32 px*/ {
+  font-size: 2rem;
+  font-family: var(--bellefair-font);
+  line-height: 1;
+}
+
+h5 /* 28 px*/ {
+  font-size: 1.75rem;
+  font-family: var(--barlowcondensed-font);
+  letter-spacing: 4.75px;
+}
+
+.subheading-1 /* 28 px*/ {
+  font-size: 1.75rem;
+  font-family: var(--bellefair-font);
+}
+
+.subheading-2 /* 14 px*/ {
+  font-size: 0.875rem;
+  font-family: var(--barlowcondensed-font);
+  letter-spacing: 2.35px;
+}
+
+.navtext /* 16 px*/ {
+  font-size: 1rem;
+  font-family: var(--barlowcondensed-font);
+  letter-spacing: 2.7px;
+}
+
+body {
+  font-size: 1.125rem; /* 18 px */
+  font-family: var(--barlow-font);
+}
+
+p {
+  font-size: 0.9375rem; /*15 px */
+  font-family: var(--barlow-font);
+  line-height: 1.5;
+}
+
+.transition {
+  transition-duration: 250ms;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 11px;
+  }
+}
