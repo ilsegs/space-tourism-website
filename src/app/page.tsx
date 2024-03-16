@@ -28,7 +28,7 @@ export default function Home() {
           </span>
           <span>
             <h1 className="text-white my-6 uppercase font-secondary">SPACE</h1>
-            <p className="text-secondary font-third leading-8 lg:text-[18px]">
+            <p className="font-third text-secondary leading-relaxed lg:leading-loose text-[16px] lg:text-[18px]">
               {`Let’s face it; if you want to go to space, you might as well
               genuinely go to outer space and not hover kind of on the edge of
               it. Well sit back, and relax because we’ll give you a truly out of

@@ -122,7 +122,7 @@ function DestinationPage() {
               <h3 className="mt-5 uppercase text-white lg:text-[100px]">
                 {planets[actual].name}
               </h3>
-              <p className="leading-relaxed lg:text-[18px]">
+              <p className="font-third text-secondary leading-relaxed lg:leading-loose text-[16px] lg:text-[18px]eading-relaxed lg:text-[18px]">
                 {""}
                 {planets[actual].description}
               </p>

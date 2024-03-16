@@ -88,7 +88,7 @@ function CrewPage() {
               {member.name}
               {""}
             </h3>
-            <p className=" font-third leading-8 space-y-px lg:text-[18px]">
+            <p className=" font-third text-secondary leading-relaxed lg:leading-loose text-[16px] lg:text-[18px] space-y-px">
               {""}
               {member.description}
             </p>
