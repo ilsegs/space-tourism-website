@@ -5,7 +5,7 @@ import Background from "@/Components/Background";
 import PageTitle from "@/Components/PageTitle";
 import Image from "next/image";
 import MotionDiv from "@/Components/MotionDiv";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useAnimation } from "framer-motion";
 import { SLIDE_LEFT, SLIDE_RIGHT } from "../lib/data";
 import { useState, useMemo } from "react";
 import { usePrevious } from "@mantine/hooks";
@@ -62,6 +62,8 @@ const planets = [
 
 function DestinationPage() {
   const [actual, setActual] = useState(0);
+  const animation = useAnimation();
+
   const previous = usePrevious(actual);
   const planet = useMemo(() => planets[actual], [actual]);
   const variant = useMemo(() => {
